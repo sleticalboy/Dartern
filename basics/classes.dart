@@ -6,7 +6,7 @@ class Person {
   // 只读属性
   int? get birthYear => birthday?.year;
 
-  Person(this.name, this.birthday) {}
+  Person(this.name, this.birthday);
 
   // 构造器不能重载，但是可以通过起别名的方式
   // Person(this.name) : this(name, null);
